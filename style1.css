@@ -1,0 +1,194 @@
+
+body{
+    margin: 0;
+}
+#nav_bar{
+     float: right;
+     margin-right: 35px;
+     margin-top: 30px;
+     font-size: 18px;
+     position: relative;
+}
+
+.navlink{
+    position: relative;
+    top:-8px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.navlink:hover{
+    text-decoration: underline;
+    color: black;
+}
+ #appdropdown{
+     display: inline-block;
+ }
+
+#appdropdown:hover{
+   cursor: pointer;
+   box-shadow: 0px 0px 1px 0px black;
+   border: none;
+}
+
+#dropdown{
+   width: 286px;
+   padding: 10px;
+   position: absolute;
+   background-color:white;
+   border-radius: 3px;
+   box-shadow: 1px 1px 1px 1px;
+   right: 0px;
+   margin-left:-50%;
+   margin-top: 6px;
+   display: none;
+}
+
+.logos:hover{
+  box-shadow: 0px 0px 1px 0px;  
+}
+
+.logos > p{
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+#youtube > img{
+    width: 55px;
+    padding-bottom: 15px;
+    /* margin-bottom: 0px; */
+}
+
+#appdropdown:hover #dropdown{
+    cursor: pointer;
+    display:block ;
+}
+
+.logos{
+    display: inline-block;
+}
+
+.logos > img{
+    width: 50px;
+    padding: 10px 20px 10px 20px;
+    margin: 0;
+}
+
+.logos > p{
+    padding: 1px 20px 10px 30px;
+    margin: 0;
+}
+
+
+
+#gmail{
+    background-color: blue;
+    color: white;
+    padding: 3px 7px;
+    border-radius: 4px;
+}
+
+#gmail:hover{
+    box-shadow: 1px 1px 1px 1px black;   
+    color: black;
+}
+
+.head1{
+   padding-top: 150px;
+   padding-left: 25%;
+}
+
+#logo{
+
+   width: 300px;
+   align-items: center;
+   padding: 40px;
+   margin-left: 150px;  
+}
+
+#search_bar{
+    position: relative;
+    width: 542px;
+    padding-left: 50px;
+}
+
+#input{
+   width: 100%;
+   margin-top: -20px;
+   /* margin-left: 90px; */
+   padding:14px;
+   border-radius: 50px 50px;
+   box-shadow: 1px 1px 1px 1px;
+   border: none;
+}
+
+#mic{
+    width: 30px;
+    position: absolute;
+    right: -12px;;
+    top:-5px;
+}
+
+#camera{
+    position: absolute;
+    right: 28px;
+    top:-3px;
+}
+
+#button{
+    margin-left: 41%;
+    padding-top: 50px;
+    margin-bottom: 70px;
+    
+}
+
+#button a{
+    padding:10px
+}
+
+.button2{
+    padding:10px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(117, 117, 219);
+}
+
+.button2:hover{
+    box-shadow: 2px 2px;  
+    cursor: pointer;
+}
+
+hr{
+    margin-top: 40px;
+  }
+  
+  #india{
+      margin-left: 20px;
+      margin-top: 30px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 20px;
+  }
+
+footer ul li{
+    position: relative;
+    display: inline ;
+    padding-right: 20px;
+    font-size: 17px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.right_footer{ 
+    float: right;
+    margin-top: 20px;
+}
+
+.left_footer{
+    position: absolute;
+    margin-top: 20px;
+}
